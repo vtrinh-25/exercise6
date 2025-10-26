@@ -18,6 +18,7 @@
         font-variation-settings: "wdth" 100;
         font-size: 16px;
         width: 960px;
+        text-align: center;
       }
 
       h1 {
@@ -25,6 +26,7 @@
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+        text-align: center;
       }
 
       #site-title {}
@@ -65,22 +67,27 @@
         grid-template-columns: 50% 50%;
         padding: 20px;
         gap: 20px;
-        width: 1000px;
-        height: 1200px;
+        width: 1050px;
+        height: 1350px;
       }
 
-      div {
+      .container div {
         background-color: dodgerblue;
         padding: 0px;
         font-size: 20px;
         text-align: center;
         margin: 20px;
         overflow: hidden;
+        margin-top: 0px;
+      }
+
+      .grid-text {
+        padding: 20px;
+        text-align: center;
       }
       
-.grid-text {
-  padding: 20px;
-  text-align: center;
+      .container div.footer {
+  text-align: center;  
 }
     </style>
   </head>
@@ -102,27 +109,36 @@
 
     <div class="container">
       <div class="grid-item">
-        <img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette" style="height: 345px;">
+        <img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette" style="height: 365px;">
         <div class="grid-text">
-        <h2>Classic Pork Banh Mi</h2>
-        <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+          <h2>Classic Pork Banh Mi</h2>
+          <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+        </div>
       </div>
-      <div class="grid-item"><img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette"style="height: 345px;">
+      <div class="grid-item">
+        <img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette" style="height: 365px;">
         <div class="grid-text">
-        <h2>Lemongrass Chicken Banh Mi</h2>
-        <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
+          <h2>Lemongrass Chicken Banh Mi</h2>
+          <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
+        </div>
       </div>
-      <div class="grid-item"><img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette"style="height: 345px;">
+      <div class="grid-item">
+        <img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette" style="height: 365px;">
         <div class="grid-text">
-        <h2>Tofu Banh Mi</h2>
-        <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
+          <h2>Tofu Banh Mi</h2>
+          <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
+        </div>
       </div>
-      <div class="grid-item"><img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette"style="height: 345px;">
+
+      <div class="grid-item">
+        <img src="banh-mi.jpg" alt="A Vietnamese sandwhich containing various meats and veggies inside a baguette" style="height: 365px;">
         <div class="grid-text">
-        <h2>Five-Spice Beef Banh Mi</h2>
-        <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+          <h2>Five-Spice Beef Banh Mi</h2>
+          <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+        </div>
       </div>
     </div>
+    
 
     <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.
     </footer>
